@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bhh">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="141dp"
+        android:layout_height="103dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/splash" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/abril_fatface"
+        android:hint="Q . O"
+        android:textAlignment="center"
+        android:textColorHint="#FFC107"
+        android:textSize="40dp" />
+
+    <RelativeLayout
+        android:id="@+id/anjing"
+        android:layout_width="369dp"
+        android:layout_height="294dp"
+        android:layout_below="@+id/text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/teal_700"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/white"
+            android:hint="Username"
+            android:textAlignment="center"
+            android:textColorHint="@color/textbutton" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/shape"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColorHint="@color/textbutton"
+            app:backgroundTint="@color/white" />
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/shape"
+            android:text="Login"
+            android:textColor="@color/textbutton"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/shape"
+            android:text="Register"
+            android:textColor="@color/textbutton"
+            app:backgroundTint="@color/button" />
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/lupa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/anjing"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="20dp"
+        android:background="#00000000"
+        android:text="Forgot Password ?"
+        android:textColor="#E31708"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

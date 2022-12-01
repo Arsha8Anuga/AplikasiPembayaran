@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Q . O</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">JunkFood</string>
+    <string name="slide_1_desc">sedia menu makanan junk food</string>
+    <string name="slide_2_title">Harga terjangkau</string>
+    <string name="slide_2_desc">menu makanan dengan harga yang terjangkau</string>
+    <string name="slide_3_title">Rasa khas</string>
+    <string name="slide_3_desc">Rasa Junk food yang khas</string>
+    <string name="play_again_desc">Untuk mwlihatnya lagi Settings -> apps -> Intro View -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
